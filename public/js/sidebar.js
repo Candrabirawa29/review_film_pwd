@@ -19,7 +19,8 @@ export function sidebar() {
 
     sidebarInner.innerHTML = `
         <div class="sidebar-list">
-            <p class="title">Genre</p>
+            <a href="index" class="title">🏠Home</a>
+            <p class="title">📽️Genre</p>
        
         <!-- genre tambahan -->
         <a href="./movie-list" menu-close class="sidebar-link" onclick='getMovieList("with_genres=16&with_original_language=ja", "Anime")'>Anime</a> <!-- nambahin kategori anime -->

@@ -6,7 +6,7 @@
 
     <title>Cineaste</title>
     <meta name="title" content="Cineaste">
-    <meta name="description" content="Candra is a popular movie app made by Candrabirawa.">
+    <meta name="description" content="Cineaste is a popular movie app made by Candrabirawa.">
     <link rel="shortcut icon" href="{{ asset('./assets/favicon2.ico') }}" >
     
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,6 +30,9 @@
             <img src="{{ asset('./assets/logocineaste.png') }}" width="125" height="32" alt="Cineaste home">
         </a>
 
+        <div class="profile">
+            <a href=""></a>
+        </div>
         <div class="search-box" search-box>
             <div class="search-wrapper" search-wrapper>
                 <input type="text" name="search" aria-label="search movies" placeholder="Search any movies..." class="search-field" autocomplete="off" search-field>
